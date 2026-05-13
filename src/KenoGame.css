@@ -1,0 +1,56 @@
+.keno-container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin: 20px;
+}
+.cell {
+  padding: 12px;
+  font-size: 18px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.cell.picked {
+  background: #4CAF50;
+  color: white;
+}
+.cell.drawn {
+  background: #FF9800;
+  color: white;
+  border: 2px solid #333;
+}
+.controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.bonus-message {
+  background: gold;
+  color: #333;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  animation: pulse 0.5s;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.drawn-numbers {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #555;
+}
