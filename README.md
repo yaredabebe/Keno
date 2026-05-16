@@ -2,7 +2,6 @@
 
 A professional, feature-rich Keno gaming platform built with React + Vite featuring 5 unique game modes with stunning animations, bonus features, and immersive themes.
 
-![Keno Master Banner](https://via.placeholder.com/800x200?text=Keno+Master)
 
 ## ✨ Live Demo
 
