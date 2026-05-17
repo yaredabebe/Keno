@@ -5,7 +5,7 @@ A professional, feature-rich Keno gaming platform built with React + Vite featur
 
 ## ✨ Live Demo
 
-[View Live Demo](#) *(Add your Netlify/Vercel link here)*
+[View Live Demo](#) *(https://ydkeno.netlify.app)*
 
 ## 🎮 Game Modes
 
