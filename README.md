@@ -55,7 +55,7 @@ A professional, feature-rich Keno gaming platform built with React + Vite featur
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/keno-master.git
+git clone https://github.com/yaredabebe/keno-master.git
 
 # Navigate to project
 cd keno-master
